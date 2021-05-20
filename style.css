@@ -1,8 +1,17 @@
+
+/* ===== css reset start=====   */
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ===== css reset end =====   */
+
+
+/* ===== general styling start =====   */
+
 
 html{
     font-size: 10px;
@@ -13,6 +22,28 @@ body{
     height: 100vh;
 
 }
+
+
+.container{
+    margin:6rem 0rem;
+}
+
+.flex-box{
+
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+/* ===== general styling end =====   */
+
+
+/* ===== typography  start =====   */
+
+
 
 h1{
     text-align: center;
@@ -31,19 +62,12 @@ p{
 
 }
 
-.container{
-    margin:6rem 0rem;
-}
 
-.flex-box{
+/* ===== typography  end  =====   */
 
-    /* border:2px solid red; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
 
-}
+
+/* ===== button start  =====   */
 
 
 
@@ -68,7 +92,11 @@ p{
     
 }
 
+/* ===== button end  =====   */
 
+
+
+/* ===== media query start  =====   */
 
 @media screen and (max-width:50rem) {
      
@@ -86,13 +114,14 @@ p{
     h1{
 
         font-size: 3rem;
+        margin-bottom: 1rem;
+
        
     }
     
     
     p{
         font-size: 2rem;
-        margin-bottom: 1rem;
    
     
     
@@ -100,3 +129,5 @@ p{
     }
 
 }
+
+/* ===== media query end  =====   */
