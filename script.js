@@ -1,8 +1,8 @@
 
-//  Normal js code 
 
 const b = document.querySelector(".btn");
 
+//button event
 b.addEventListener("click", function () {
   const randomnumber = Math.floor(Math.random() * 6 + 1);
   const a = "dice" + randomnumber + ".png";
