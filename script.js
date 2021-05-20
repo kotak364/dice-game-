@@ -30,4 +30,4 @@ b.addEventListener("click", function () {
 });
 
 
-//  ecma script 6  js code 
+
