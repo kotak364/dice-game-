@@ -17,10 +17,15 @@ b.addEventListener("click", function () {
 
   if (randomnumber > randomnumber2) {
     document.querySelector("h1").textContent = "Player 1 Won";
+    document.querySelector("h1").style.color = "black"; 
   } else if (randomnumber < randomnumber2) {
     document.querySelector("h1").textContent = "Player 2 Won";
+    document.querySelector("h1").style.color = "blue"; 
+
   } else {
     document.querySelector("h1").textContent = "Draw";
+    document.querySelector("h1").style.color = "red"; 
+
   }
 });
 
