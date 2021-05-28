@@ -7,7 +7,10 @@ const p2 = document.getElementById("player2");
 b.addEventListener("click",  () => {
   const randomnumber = Math.floor(Math.random() * 6 + 1);
   const a = "dice" + randomnumber + ".png";
+  
 
+
+  console.log(a);
   const randomnumber2 = Math.floor(Math.random() * 6 + 1);
 
   const c = "dice" + randomnumber2 + ".png";
